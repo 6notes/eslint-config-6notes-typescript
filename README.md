@@ -1,5 +1,13 @@
 # README.md
 
+# Installation
+
+```
+npm install git+https://github.com/6notes/eslint-config-6notes-typescript.git
+```
+
+## Why
+
 - `@eslint/js` is just ESLint, used for enforcing/warning rules.
 - `@eslint/js` is just Prettier, used for enforcing styles.
 - `@stylistic/eslint-plugin` is for spaces after comment lines.
