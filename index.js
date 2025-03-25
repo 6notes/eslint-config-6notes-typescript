@@ -1,9 +1,9 @@
-/*import eslint from '@eslint/js';
+import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import prettier from 'eslint-config-prettier';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import sortKeysCustomOrder from 'eslint-plugin-sort-keys-custom-order';
-import tseslint from 'typescript-eslint';*/
+import tseslint from 'typescript-eslint';
 
 export default [
   {
