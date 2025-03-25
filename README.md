@@ -3,7 +3,7 @@
 # Installation
 
 ```
-npm install git+https://github.com/6notes/eslint-config-6notes-typescript.git
+npm install --save-dev git+https://github.com/6notes/eslint-config-6notes-typescript.git
 ```
 
 ## Why
