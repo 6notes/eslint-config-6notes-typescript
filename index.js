@@ -35,6 +35,7 @@ export default [
       'simple-import-sort/imports': 'error',
       'sort-imports': 'off',
       'sort-keys': 'off',
+      'max-lines-per-function': ['error', 100],
     },
   },
   prettier,
