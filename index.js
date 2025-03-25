@@ -7,7 +7,6 @@ import tseslint from 'typescript-eslint';
 
 export default [
   eslint.configs.all,
-  ...tseslint.configs.strictTypeChecked,
   {
     files: ['**/*.{ts,tsx}'],
     ignores: ['**/sst-env.d.ts'],
@@ -38,5 +37,6 @@ export default [
       'max-lines-per-function': ['error', 100],
     },
   },
+  ...tseslint.configs.strictTypeChecked,
   prettier,
 ];
