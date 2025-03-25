@@ -6,12 +6,9 @@ import sortKeysCustomOrder from 'eslint-plugin-sort-keys-custom-order';
 import tseslint from 'typescript-eslint';
 
 export default [
+  eslint.configs.all,
+  ...tseslint.configs.strictTypeChecked,
   {
-    extends: [
-      eslint.configs.all,
-      ...tseslint.configs.strictTypeChecked,
-      prettier,
-    ],
     files: ['**/*.{ts,tsx}'],
     ignores: ['**/sst-env.d.ts'],
     languageOptions: {
@@ -40,4 +37,5 @@ export default [
       'sort-keys': 'off',
     },
   },
+  prettier,
 ];
