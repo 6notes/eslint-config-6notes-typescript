@@ -1,6 +1,6 @@
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
-//import configPrettier from 'eslint-config-prettier';
+import prettier from 'eslint-config-prettier';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import sortKeysCustomOrder from 'eslint-plugin-sort-keys-custom-order';
 import tseslint from 'typescript-eslint';
@@ -37,5 +37,5 @@ export default [
       'sort-keys': 'off',
     },
   },
-  //configPrettier,
+  prettier,
 ];
