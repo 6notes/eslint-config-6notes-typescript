@@ -1,3 +1,3 @@
-import type { ConfigArray } from '@typescript-eslint/utils';
+import type { InfiniteDepthConfigWithExtends } from '@typescript-eslint/utils';
 
-export default ConfigArray;
+export default Array<InfiniteDepthConfigWithExtends>;
