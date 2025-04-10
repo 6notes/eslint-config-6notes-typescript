@@ -39,7 +39,7 @@ export default [
       Used to bypass floating promises in useEffect, see
       https://github.com/typescript-eslint/typescript-eslint/issues/9061 and https://github.com/typescript-eslint/typescript-eslint/issues/1184
       */
-      'no-void': ['error', { allowAsStatement: true }],
+      'no-void': 'off',
     },
   },
   ...tseslint.configs.strictTypeChecked,
