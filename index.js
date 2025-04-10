@@ -29,6 +29,7 @@ export default [
       'max-lines-per-function': ['error', 120],
       'max-statements': 'off',
       'one-var': ['error', 'never'],
+      'no-magic-numbers': ['error', { ignore: [0] }],
       'no-ternary': 'off',
       'no-void': 'off',
       'prefer-const': 'error',
