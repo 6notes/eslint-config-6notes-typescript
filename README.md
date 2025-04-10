@@ -6,6 +6,12 @@
 npm install --save-dev git+https://github.com/6notes/eslint-config-6notes-typescript.git
 ```
 
+## Uninstall
+
+```
+npm uninstall --save-dev git+https://github.com/6notes/eslint-config-6notes-typescript.git
+```
+
 ## Why
 
 - `@eslint/js` is just ESLint, used for enforcing/warning rules.
