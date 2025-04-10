@@ -1,6 +1,8 @@
 # README.md
 
-# Installation
+# Useful commands
+
+## Installation
 
 ```
 npm install --save-dev git+https://github.com/6notes/eslint-config-6notes-typescript.git
@@ -10,6 +12,13 @@ npm install --save-dev git+https://github.com/6notes/eslint-config-6notes-typesc
 
 ```
 npm uninstall --save-dev git+https://github.com/6notes/eslint-config-6notes-typescript.git
+```
+
+## Debug
+
+```
+#Example: `npx eslint --debug eslint.config.js`
+npx eslint --debug PATH_TO_YOUR_eslint.config.js
 ```
 
 ## Why
