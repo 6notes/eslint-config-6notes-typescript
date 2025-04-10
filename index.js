@@ -26,20 +26,21 @@ export default [
       'capitalized-comments': 'off',
       'func-style': 'off',
       'init-declarations': 'off',
+      'max-lines-per-function': ['error', 120],
+      'max-statements': 'off',
       'one-var': ['error', 'never'],
       'no-ternary': 'off',
+      'no-void': 'off',
       'prefer-const': 'error',
       'require-await': 'error',
       'simple-import-sort/exports': 'error',
       'simple-import-sort/imports': 'error',
       'sort-imports': 'off',
       'sort-keys': 'off',
-      'max-lines-per-function': ['error', 100],
       /*
       Used to bypass floating promises in useEffect, see
       https://github.com/typescript-eslint/typescript-eslint/issues/9061 and https://github.com/typescript-eslint/typescript-eslint/issues/1184
       */
-      'no-void': 'off',
     },
   },
   ...tseslint.configs.strictTypeChecked,
