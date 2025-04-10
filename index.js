@@ -35,6 +35,11 @@ export default [
       'sort-imports': 'off',
       'sort-keys': 'off',
       'max-lines-per-function': ['error', 100],
+      /*
+      Used to bypass floating promises in useEffect, see
+      https://github.com/typescript-eslint/typescript-eslint/issues/9061 and https://github.com/typescript-eslint/typescript-eslint/issues/1184
+      */
+      'no-void': { allowAsStatement: true },
     },
   },
   ...tseslint.configs.strictTypeChecked,
